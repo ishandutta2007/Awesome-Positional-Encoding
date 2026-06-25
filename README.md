@@ -1,11 +1,21 @@
-# Awesome-Positional-Encoding
-## Positional Encoding: Evolution, Variants, Types, & Applications
+<div align="center">
+  <img src="assets/banner.svg" alt="Awesome Positional Encoding Banner" width="100%">
+  <br><br>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</div>
+
+# Awesome Positional Encoding 🚀
+## Positional Encoding: Evolution, Variants, Types, & Applications 🧬
+
+
+> 🌟 **A curated list of awesome positional encoding techniques, research papers, architectures, and applications in modern Transformers and Large Language Models (LLMs).**
+
 
 Positional Encoding is a foundational component of the Transformer architecture. Because the core Self-Attention mechanism processes all tokens in a sequence simultaneously and in parallel, it is inherently permutation-invariant. Without positional information, a Transformer treats the sentence `"Dog bites man"` exactly the same as `"Man bites dog"`. Positional Encoding injects spatial coordinate data into the token embeddings, allowing the network to understand word order, structural distances, and sequence geometry.
 
 ---
 
-## 1. The Chronological Evolution
+## 1. The Chronological Evolution ⏳
 
 The architectural progression of positional tracking reflects a shift from rigid, hardcoded coordinate curves to learnable spaces, moving toward modern relative, complex-plane rotations.
 
@@ -25,7 +35,7 @@ flowchart LR
 
 ---
 
-## 2. Core Functional & Architectural Variants
+## 2. Core Functional & Architectural Variants 🏗️
 
 Positional tracking approaches are strictly split based on whether coordinates are absolute values assigned at data entry or relative values evaluated inside attention operations.
 
@@ -36,7 +46,7 @@ Positional tracking approaches are strictly split based on whether coordinates a
 
 ---
 
-## 3. Advanced Context Window Extrapolation Types
+## 3. Advanced Context Window Extrapolation Types 🔍
 
 As frontier applications require processing ultra-long contexts (e.g., full books or code repositories), specialized RoPE extensions modify the underlying rotational frequencies at inference time.
 
@@ -49,7 +59,7 @@ As frontier applications require processing ultra-long contexts (e.g., full book
 
 ---
 
-## 4. Cross-Domain Applications
+## 4. Cross-Domain Applications 🌐
 
 | Domain | Application | Year First Used | Paper Link |
 |---|---|---|---|
