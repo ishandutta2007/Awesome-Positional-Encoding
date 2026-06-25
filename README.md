@@ -67,3 +67,15 @@ As frontier applications require processing ultra-long contexts (e.g., full book
 | [**Vision Transformers (ViT) & Image Grid Processing**](pages/vision_transformers.md) | Vision networks treat image patches as sequences. Because 2D images require vertical and horizontal coordination, they implement **2D Sinusoidal Encodings** or **Conditional Positional Encodings (CPE)** to preserve spatial layouts regardless of canvas aspect ratios. | 2020 | [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale (Dosovitskiy et al., 2020)](https://arxiv.org/abs/2010.11929) |
 | [**Spatio-Temporal Video Architecture Generation**](pages/spatiotemporal_video.md) | Video transformers split video clips into spacetime token cubes. They deploy 3D Positional Encodings to track horizontal spatial coordinates, vertical spatial coordinates, and continuous chronological frame sequences simultaneously. | 2021 | [ViViT: A Video Vision Transformer (Arnab et al., 2021)](https://arxiv.org/abs/2103.15691) |
 
+
+
+##  Star History
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Positional-Encoding&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Positional-Encoding&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Positional-Encoding&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Positional-Encoding&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
